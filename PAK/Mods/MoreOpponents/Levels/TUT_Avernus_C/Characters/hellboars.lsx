@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-17a1-a8db208e0de7" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="d6a069aa-5d3b-5b96-588e-8cee21ed0c6b-_(Icon_Boar)" />
+					<attribute id="InfluenceTreasureLevel" type="bool" value="False" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
+					<attribute id="MapKey" type="FixedString" value="4b5003bc-4679-40f5-ac42-76cb005fdad1" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="RagdollTemplate" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="Boar_Hell" />
+					<attribute id="TemplateName" type="FixedString" value="3e9ad4d7-f3d5-48b9-8b58-6cf9d3324923" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241810" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="TUT_Avernus_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="f5ba4fc7-a74b-57c5-2670-9ffbc7655bec" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="13a9e069-7780-5af4-dca0-f42e9a261314" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementTiltToRemap" type="FixedString" value="" />
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-84.77195 3.671914 -397.0906" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.4953631 0 0.868686" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-17a1-a8db208e0de7" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="d6a069aa-5d3b-5b96-588e-8cee21ed0c6b-_(Icon_Boar)" />
+					<attribute id="InfluenceTreasureLevel" type="bool" value="False" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
+					<attribute id="MapKey" type="FixedString" value="c77a0aa5-852e-49db-bce5-981b25609e4f" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="RagdollTemplate" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="Boar_Hell_Weak" />
+					<attribute id="TemplateName" type="FixedString" value="2e51b930-c9fd-41f2-8013-02c92e990de2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241810" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="TUT_Avernus_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="f5ba4fc7-a74b-57c5-2670-9ffbc7655bec" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="13a9e069-7780-5af4-dca0-f42e9a261314" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementTiltToRemap" type="FixedString" value="" />
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-84.77175 3.671914 -397.0916" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.4953631 0 0.868686" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-17a1-a8db208e0de7" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="d6a069aa-5d3b-5b96-588e-8cee21ed0c6b-_(Icon_Boar)" />
+					<attribute id="InfluenceTreasureLevel" type="bool" value="False" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
+					<attribute id="MapKey" type="FixedString" value="d094dc72-053a-4a45-89a7-dad6022faf1b" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="RagdollTemplate" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="Boar_Hell" />
+					<attribute id="TemplateName" type="FixedString" value="3e9ad4d7-f3d5-48b9-8b58-6cf9d3324923" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241810" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="TUT_Avernus_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="f5ba4fc7-a74b-57c5-2670-9ffbc7655bec" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="13a9e069-7780-5af4-dca0-f42e9a261314" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementTiltToRemap" type="FixedString" value="" />
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-37.73564 17.24923 -386.7946" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.4953631 0 0.868686" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="CombatGroupID" type="FixedString" value="ff6a0558-57b2-8ce3-1c60-ee943003bacd" />
+					<attribute id="Faction" type="guid" value="0314cde4-8572-4d70-17a1-a8db208e0de7" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="d6a069aa-5d3b-5b96-588e-8cee21ed0c6b-_(Icon_Boar)" />
+					<attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
+					<attribute id="MapKey" type="FixedString" value="070d82de-7939-41f2-b99e-e098199bccb3" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Stats" type="FixedString" value="Boar_Hell" />
+					<attribute id="TemplateName" type="FixedString" value="3e9ad4d7-f3d5-48b9-8b58-6cf9d3324923" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241810" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="TUT_Avernus_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d5da36e6-1d7b-4d5a-bcee-2d8c8326c1a5" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="db4ceb08-b94b-9be9-9f79-88240d73c0ca" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-75.89794 17.58887 -388.4254" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.6054833 0 0.795858" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+            </children>
+		</node>
+	</region>
+</save>

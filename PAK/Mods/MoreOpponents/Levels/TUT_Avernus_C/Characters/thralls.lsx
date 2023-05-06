@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				
+
+                <node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="TUT_DeckThrall_001" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c79f26b7-c6a0-3b0c-8de7-3e6c38362e9f" />
+					<attribute id="CombatGroupID" type="FixedString" value="d2e4ae00-d2cf-f2a8-04e2-7df9a00df1c3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hec514b81g3a38g49f1g84f8g97df338879b6" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Shortsword" />
+					<attribute id="Faction" type="guid" value="d218306d-31e0-4329-3c9c-5b12bf2cec0d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="c79f26b7-c6a0-3b0c-8de7-3e6c38362e9f-_(Icon_Human_Male)" />
+					<attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
+					<attribute id="MapKey" type="FixedString" value="7946f789-b249-4fa8-bf68-da02724519d7" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Stats" type="FixedString" value="TUT_Victim_Human" />
+					<attribute id="TemplateName" type="FixedString" value="244cc192-7cf3-4a24-a782-693e429f3d74" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758165" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="TUT_Avernus_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d5da36e6-1d7b-4d5a-bcee-2d8c8326c1a5" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="db4ceb08-b94b-9be9-9f79-88240d73c0ca" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-115.0869 16.32304 -387.1186" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9703578 0 0.2416731" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+                <node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="TUT_DeckThrall_002" />
+					<attribute id="Archetype" type="FixedString" value="ranged" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="9f99f072-3714-0334-821d-5c03bbff644d" />
+					<attribute id="CombatGroupID" type="FixedString" value="d2e4ae00-d2cf-f2a8-04e2-7df9a00df1c3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha9dd7fbagd557g4e16g9536g52b28f9d829b" version="1" />
+                    <attribute id="Equipment" type="FixedString" value="EQP_Crossbow_Leather" />
+					<attribute id="Faction" type="guid" value="d218306d-31e0-4329-3c9c-5b12bf2cec0d" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Icon" type="FixedString" value="9f99f072-3714-0334-821d-5c03bbff644d-_(Icon_Human_Female)" />
+					<attribute id="LevelName" type="FixedString" value="TUT_Avernus_C" />
+					<attribute id="MapKey" type="FixedString" value="77fc6c72-a938-4a75-a3d1-2a13fb6d0560" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Stats" type="FixedString" value="TUT_Victim_Human" />
+					<attribute id="TemplateName" type="FixedString" value="244cc192-7cf3-4a24-a782-693e429f3d74" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758165" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="TUT_Avernus_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d5da36e6-1d7b-4d5a-bcee-2d8c8326c1a5" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="db4ceb08-b94b-9be9-9f79-88240d73c0ca" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-117.4333 16.32454 -391.636" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+            </children>
+		</node>
+	</region>
+</save>

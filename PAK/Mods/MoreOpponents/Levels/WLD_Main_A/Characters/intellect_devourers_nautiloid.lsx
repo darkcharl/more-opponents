@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<node id="GameObjects">
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CombatGroupID" type="FixedString" value="cc6545f9-cc0b-7248-4b27-4596714925a1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4b9aaf8bgcc22g46a6gaa25gca030a15f123" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Unarmed" />
+					<attribute id="Faction" type="guid" value="44ae0af8-9a7e-4f90-7c97-c5b89ce9a79c" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="3178" />
+					<attribute id="Icon" type="FixedString" value="76e4d0ae-fcd7-091e-b81f-1431850db64a-EQP_Unarmed_(Icon_IntDev)" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LadderLoopSpeed" type="float" value="8" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LightID" type="FixedString" value="12fd041c-fef9-4c42-830b-7f1988f335cf" />
+					<attribute id="MapKey" type="FixedString" value="8319b285-5b4f-4c7f-b60c-d47d906988aa" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="Stats" type="FixedString" value="CRA_IntellectDevourer_Weak" />
+					<attribute id="SwarmGroup" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="5620024c-5d1b-477d-ace8-43e2275f6158" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="2453885e-6382-66d8-91a9-f73b8c03c1f5" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="b586f789-d290-f56a-f7c2-3a8a39f71b53" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="e92ad90d-7a5a-078c-df05-3b76d36b4625" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="af25e1e5-8c5f-c369-a3d4-f88818675815" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="f6e2e96e-3820-c546-348a-b26d19246058" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241814" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="Testlevel_Dialogs_POC2" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="99e9c806-5aae-ff18-9d61-e23b10f31c29" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5b6fa564-c880-e0b4-123b-e238916f5e54" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c78c842b-ca26-4440-5796-c4a7f79c899c" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="bce5fe23-8b99-1ee6-514e-8f46760e1384" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedRun" type="float" value="5" />
+							<attribute id="MovementSpeedWalk" type="float" value="4" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="1df9c9ee-8dd8-ebeb-3b1a-83d31f141f0a" />
+							<attribute id="WorldClimbingSpeed" type="float" value="7.5" />
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CellAtGrow" type="int32" value="4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="GrowTimer" type="float" value="0.1" />
+											<attribute id="LifeTime" type="float" value="-1" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="6" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_IntellectDevourer" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="232.6023 4.542386 269.5877" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9355337 0 -0.3532377" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures" />
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceBlood" />
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="CanBeTeleported" type="bool" value="True" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanOpenDoors" type="bool" value="True" />
+					<attribute id="CombatGroupID" type="FixedString" value="cc6545f9-cc0b-7248-4b27-4596714925a1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Unarmed" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="" />
+					<attribute id="Faction" type="guid" value="e90fc408-efad-46a8-7191-f83dafc440bf" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="11915" />
+					<attribute id="Icon" type="FixedString" value="76e4d0ae-fcd7-091e-b81f-1431850db64a-EQP_Unarmed_(Icon_IntDev)" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LadderLoopSpeed" type="float" value="8" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="0" />
+					<attribute id="LightID" type="FixedString" value="12fd041c-fef9-4c42-830b-7f1988f335cf" />
+					<attribute id="MapKey" type="FixedString" value="6e15e181-82fb-4ef7-9ee1-bcb959fdd4dc" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="Stats" type="FixedString" value="CRA_IntellectDevourer_Weak" />
+					<attribute id="SwarmGroup" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="5620024c-5d1b-477d-ace8-43e2275f6158" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="2453885e-6382-66d8-91a9-f73b8c03c1f5" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="b586f789-d290-f56a-f7c2-3a8a39f71b53" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="e92ad90d-7a5a-078c-df05-3b76d36b4625" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="af25e1e5-8c5f-c369-a3d4-f88818675815" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="f6e2e96e-3820-c546-348a-b26d19246058" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241814" />
+					<children>
+						<node id="FootStepInfos">
+							<children>
+								<node id="FootStepInfo">
+									<attribute id="FootBoneName" type="FixedString" value="Toes_L_endBone" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="Name" type="LSString" value="Footstep_L_Front" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="FootBoneName" type="FixedString" value="Toes_R_endBone" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="Name" type="LSString" value="Footstep_R_Front" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="FootBoneName" type="FixedString" value="Finger2_L" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="Name" type="LSString" value="Footstep_L_Back" />
+								</node>
+								<node id="FootStepInfo">
+									<attribute id="FootBoneName" type="FixedString" value="Finger2_R" />
+									<attribute id="FootHearingEffectName" type="LSString" value="" />
+									<attribute id="FootPrintEffectName" type="LSString" value="" />
+									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
+									<attribute id="FootSlideEffectName" type="LSString" value="" />
+									<attribute id="FootSmearEffectName" type="LSString" value="" />
+									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
+									<attribute id="Name" type="LSString" value="Footstep_R_back" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5b6fa564-c880-e0b4-123b-e238916f5e54" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c78c842b-ca26-4440-5796-c4a7f79c899c" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="bce5fe23-8b99-1ee6-514e-8f46760e1384" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedRun" type="float" value="5" />
+							<attribute id="MovementSpeedWalk" type="float" value="4" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="1df9c9ee-8dd8-ebeb-3b1a-83d31f141f0a" />
+							<attribute id="WorldClimbingSpeed" type="float" value="7.5" />
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_IntellectDevourer" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="230.6978 10.22764 286.2593" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.8154176 0 0.5788731" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures" />
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CombatGroupID" type="FixedString" value="cc6545f9-cc0b-7248-4b27-4596714925a1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd85edff5g5992g41bcgab22g7123f5289afb" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Unarmed" />
+					<attribute id="Faction" type="guid" value="44ae0af8-9a7e-4f90-7c97-c5b89ce9a79c" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="3178" />
+					<attribute id="Icon" type="FixedString" value="76e4d0ae-fcd7-091e-b81f-1431850db64a-EQP_Unarmed_(Icon_IntDev)" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LadderLoopSpeed" type="float" value="8" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LightID" type="FixedString" value="12fd041c-fef9-4c42-830b-7f1988f335cf" />
+					<attribute id="MapKey" type="FixedString" value="41e3ecb0-49c4-4909-83f0-4d14a7e63792" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="Stats" type="FixedString" value="CRA_IntellectDevourer_Weak" />
+					<attribute id="SwarmGroup" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="5620024c-5d1b-477d-ace8-43e2275f6158" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="2453885e-6382-66d8-91a9-f73b8c03c1f5" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="b586f789-d290-f56a-f7c2-3a8a39f71b53" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="e92ad90d-7a5a-078c-df05-3b76d36b4625" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="af25e1e5-8c5f-c369-a3d4-f88818675815" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="f6e2e96e-3820-c546-348a-b26d19246058" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241814" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="Testlevel_Dialogs_POC2" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="99e9c806-5aae-ff18-9d61-e23b10f31c29" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5b6fa564-c880-e0b4-123b-e238916f5e54" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c78c842b-ca26-4440-5796-c4a7f79c899c" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="bce5fe23-8b99-1ee6-514e-8f46760e1384" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedRun" type="float" value="5" />
+							<attribute id="MovementSpeedWalk" type="float" value="4" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="1df9c9ee-8dd8-ebeb-3b1a-83d31f141f0a" />
+							<attribute id="WorldClimbingSpeed" type="float" value="7.5" />
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CellAtGrow" type="int32" value="4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="GrowTimer" type="float" value="0.1" />
+											<attribute id="LifeTime" type="float" value="-1" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="6" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_IntellectDevourer" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="233.1244 4.108541 270.157" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.823955 0 0.5666553" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures" />
+					</children>
+				</node>
+
+				<node id="GameObjects">
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CombatGroupID" type="FixedString" value="cc6545f9-cc0b-7248-4b27-4596714925a1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd85edff5g5992g41bcgab22g7123f5289afb" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Unarmed" />
+					<attribute id="Faction" type="guid" value="44ae0af8-9a7e-4f90-7c97-c5b89ce9a79c" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="3178" />
+					<attribute id="Icon" type="FixedString" value="76e4d0ae-fcd7-091e-b81f-1431850db64a-EQP_Unarmed_(Icon_IntDev)" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LadderLoopSpeed" type="float" value="8" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LightID" type="FixedString" value="12fd041c-fef9-4c42-830b-7f1988f335cf" />
+					<attribute id="MapKey" type="FixedString" value="f9358a82-0606-40f9-ad9d-1321ee9b674a" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="Race" type="guid" value="4bd6dcba-b21c-4d83-fe90-bf21ec840bd5" />
+					<attribute id="Stats" type="FixedString" value="CRA_IntellectDevourer_Weak" />
+					<attribute id="SwarmGroup" type="FixedString" value="" />
+					<attribute id="TemplateName" type="FixedString" value="5620024c-5d1b-477d-ace8-43e2275f6158" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="2453885e-6382-66d8-91a9-f73b8c03c1f5" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="b586f789-d290-f56a-f7c2-3a8a39f71b53" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="e92ad90d-7a5a-078c-df05-3b76d36b4625" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="af25e1e5-8c5f-c369-a3d4-f88818675815" />
+					<attribute id="VocalSpawnResourceID" type="FixedString" value="f6e2e96e-3820-c546-348a-b26d19246058" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241814" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="Testlevel_Dialogs_POC2" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="99e9c806-5aae-ff18-9d61-e23b10f31c29" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="5b6fa564-c880-e0b4-123b-e238916f5e54" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c78c842b-ca26-4440-5796-c4a7f79c899c" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="bce5fe23-8b99-1ee6-514e-8f46760e1384" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="MovementSpeedRun" type="float" value="5" />
+							<attribute id="MovementSpeedWalk" type="float" value="4" />
+							<attribute id="MovementTiltToRemap" type="FixedString" value="1df9c9ee-8dd8-ebeb-3b1a-83d31f141f0a" />
+							<attribute id="WorldClimbingSpeed" type="float" value="7.5" />
+						</node>
+						<node id="OnDeathActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="10" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CellAtGrow" type="int32" value="4" />
+											<attribute id="ExternalCauseAsSurfaceOwner" type="bool" value="True" />
+											<attribute id="GrowTimer" type="float" value="0.1" />
+											<attribute id="LifeTime" type="float" value="-1" />
+											<attribute id="SurfaceType" type="FixedString" value="SurfaceBlood" />
+											<attribute id="Timeout" type="float" value="0" />
+											<attribute id="TotalCells" type="int32" value="6" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Claws_IntellectDevourer" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="240.1244 4.108541 272.157" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.823955 0 0.5666553" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+						<node id="Treasures" />
+					</children>
+				</node>
+
+            </children>
+		</node>
+	</region>
+</save>
